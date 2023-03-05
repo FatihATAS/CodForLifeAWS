@@ -10,5 +10,6 @@ public class APITest {
         String url = "https://restful-booker.herokuapp.com/booking";
         Response response = given().get(url);
         response.then().assertThat().statusCode(200);
+        System.out.println("CodForLife");
     }
 }
